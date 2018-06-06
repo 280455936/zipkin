@@ -40,7 +40,7 @@ import org.jooq.impl.CatalogImpl;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class DefaultCatalog extends CatalogImpl {
 
-    private static final long serialVersionUID = 1915192174;
+    private static final long serialVersionUID = 1253842574;
 
     /**
      * The reference instance of <code></code>
@@ -50,7 +50,7 @@ public class DefaultCatalog extends CatalogImpl {
     /**
      * The schema <code>zipkin</code>.
      */
-    public final Zipkin ZIPKIN = Zipkin.ZIPKIN;
+    public final Zipkin ZIPKIN = zipkin2.storage.mysql.v1.internal.generated.Zipkin.ZIPKIN;
 
     /**
      * No further instances allowed

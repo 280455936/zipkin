@@ -29,7 +29,7 @@ import zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinSpans;
 
 
 /**
- * A class modelling foreign key relationships and constraints of tables of
+ * A class modelling foreign key relationships and constraints of tables of 
  * the <code>zipkin</code> schema.
  */
 @Generated(

@@ -40,15 +40,15 @@ public class Tables {
     /**
      * The table <code>zipkin.zipkin_annotations</code>.
      */
-    public static final ZipkinAnnotations ZIPKIN_ANNOTATIONS = ZipkinAnnotations.ZIPKIN_ANNOTATIONS;
+    public static final ZipkinAnnotations ZIPKIN_ANNOTATIONS = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinAnnotations.ZIPKIN_ANNOTATIONS;
 
     /**
      * The table <code>zipkin.zipkin_dependencies</code>.
      */
-    public static final ZipkinDependencies ZIPKIN_DEPENDENCIES = ZipkinDependencies.ZIPKIN_DEPENDENCIES;
+    public static final ZipkinDependencies ZIPKIN_DEPENDENCIES = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinDependencies.ZIPKIN_DEPENDENCIES;
 
     /**
      * The table <code>zipkin.zipkin_spans</code>.
      */
-    public static final ZipkinSpans ZIPKIN_SPANS = ZipkinSpans.ZIPKIN_SPANS;
+    public static final ZipkinSpans ZIPKIN_SPANS = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinSpans.ZIPKIN_SPANS;
 }

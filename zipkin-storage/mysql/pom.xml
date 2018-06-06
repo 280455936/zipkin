@@ -139,7 +139,7 @@
                 <inputSchema>zipkin</inputSchema>
               </database>
               <target>
-                <packageName>zipkin.storage.mysql.internal.generated</packageName>
+                <packageName>zipkin2.storage.mysql.v1.internal.generated</packageName>
                 <directory>src/main/java</directory>
               </target>
             </generator>

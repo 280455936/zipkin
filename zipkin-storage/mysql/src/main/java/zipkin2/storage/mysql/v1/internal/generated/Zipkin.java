@@ -45,7 +45,7 @@ import zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinSpans;
 @SuppressWarnings({ "all", "unchecked", "rawtypes" })
 public class Zipkin extends SchemaImpl {
 
-    private static final long serialVersionUID = 706436059;
+    private static final long serialVersionUID = 2080169980;
 
     /**
      * The reference instance of <code>zipkin</code>
@@ -55,17 +55,17 @@ public class Zipkin extends SchemaImpl {
     /**
      * The table <code>zipkin.zipkin_annotations</code>.
      */
-    public final ZipkinAnnotations ZIPKIN_ANNOTATIONS = ZipkinAnnotations.ZIPKIN_ANNOTATIONS;
+    public final ZipkinAnnotations ZIPKIN_ANNOTATIONS = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinAnnotations.ZIPKIN_ANNOTATIONS;
 
     /**
      * The table <code>zipkin.zipkin_dependencies</code>.
      */
-    public final ZipkinDependencies ZIPKIN_DEPENDENCIES = ZipkinDependencies.ZIPKIN_DEPENDENCIES;
+    public final ZipkinDependencies ZIPKIN_DEPENDENCIES = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinDependencies.ZIPKIN_DEPENDENCIES;
 
     /**
      * The table <code>zipkin.zipkin_spans</code>.
      */
-    public final ZipkinSpans ZIPKIN_SPANS = ZipkinSpans.ZIPKIN_SPANS;
+    public final ZipkinSpans ZIPKIN_SPANS = zipkin2.storage.mysql.v1.internal.generated.tables.ZipkinSpans.ZIPKIN_SPANS;
 
     /**
      * No further instances allowed
